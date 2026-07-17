@@ -1,0 +1,102 @@
+{
+  "VakifKatilim": {
+    "aktif": true,
+    "banka_adi": "Vakıf Katılım",
+    "bireysel_url": "https://www.vakifkatilim.com.tr/tr/bireysel/kampanyalar",
+    "ticari_url": "https://www.vakifkatilim.com.tr/tr/ticari/kampanyalar",
+    "link_pattern": "/kampanyalar/detay/",
+    "base_url": "https://www.vakifkatilim.com.tr",
+    "title_selectors": ["h1", "h2", ".campaign-title"],
+    "kesin_silinecekler": ["çerez politikası", "gizlilik sözleşmesi"]
+  },
+  "Albaraka": {
+    "aktif": true,
+    "banka_adi": "Albaraka Türk",
+    "bireysel_url": "https://www.albaraka.com.tr/tr/kampanyalar",
+    "ticari_url": "",
+    "link_pattern": "/kampanyalar/detay/",
+    "base_url": "https://www.albaraka.com.tr",
+    "title_selectors": ["h1", ".campaign-detail-title", ".title"],
+    "kesin_silinecekler": ["tüm hakları saklıdır"]
+  },
+  "Kuveytturk": {
+    "aktif": true,
+    "banka_adi": "Kuveyt Türk",
+    "bireysel_url": "https://www.kuveytturk.com.tr/kampanyalar/kendim-icin",
+    "ticari_url": "https://www.kuveytturk.com.tr/kampanyalar/isim-icin/kart-kampanyalari",
+    "link_pattern": "/kampanyalar/",
+    "base_url": "https://www.kuveytturk.com.tr",
+    "title_selectors": ["h1", ".banner-title"],
+    "kesin_silinecekler": []
+  },
+  "ZiraatKatilim": {
+    "aktif": true,
+    "banka_adi": "Ziraat Katılım",
+    "bireysel_url": "https://www.ziraatkatilim.com.tr/kart-kampanyalari/",
+    "ticari_url": "https://www.ziraatkatilim.com.tr/bireysel/kampanyalar/",
+    "link_pattern": "/kampanyalar/",
+    "base_url": "https://www.ziraatkatilim.com.tr",
+    "title_selectors": ["h1"],
+    "kesin_silinecekler": []
+  },
+  "TurkiyeFinans": {
+    "aktif": true,
+    "banka_adi": "Türkiye Finans",
+    "bireysel_url": "https://www.turkiyefinans.com.tr/tr-tr/kampanyalar/Sayfalar/default.aspx",
+    "ticari_url": "",
+    "link_pattern": "/kampanyalar/",
+    "base_url": "https://www.turkiyefinans.com.tr",
+    "title_selectors": ["h1", ".campaign-title"],
+    "kesin_silinecekler": []
+  },
+  "EmlakKatilim": {
+    "aktif": true,
+    "banka_adi": "Emlak Katılım",
+    "bireysel_url": "https://www.emlakkatilim.com.tr/tr/bireysel/kampanyalar",
+    "ticari_url": "",
+    "link_pattern": "/kampanyalar/",
+    "base_url": "https://www.emlakkatilim.com.tr",
+    "title_selectors": ["h1", ".campaign-title"],
+    "kesin_silinecekler": []
+  },
+  "DunyaKatilim": {
+    "aktif": true,
+    "banka_adi": "Dünya Katılım",
+    "bireysel_url": "https://dunyakatilim.com.tr/",
+    "ticari_url": "",
+    "link_pattern": "/kampanyalar/",
+    "base_url": "https://dunyakatilim.com.tr",
+    "title_selectors": ["h1", "h2"],
+    "kesin_silinecekler": []
+  },
+  "TomBank": {
+    "aktif": true,
+    "banka_adi": "T.O.M. Katılım (Hadi)",
+    "bireysel_url": "https://tombankhadi.com/hadi-web-kazan/kampanyalar",
+    "ticari_url": "",
+    "link_pattern": "/kampanyalar/",
+    "base_url": "https://tombankhadi.com",
+    "title_selectors": ["h1", ".campaign-title"],
+    "kesin_silinecekler": []
+  },
+  "HayatFinans": {
+    "aktif": true,
+    "banka_adi": "Hayat Finans",
+    "bireysel_url": "https://hayatfinans.com.tr/kampanyalar",
+    "ticari_url": "",
+    "link_pattern": "/kampanyalar",
+    "base_url": "https://hayatfinans.com.tr",
+    "title_selectors": ["h1"],
+    "kesin_silinecekler": []
+  },
+  "AdilKatilim": {
+    "aktif": false,
+    "banka_adi": "Adil Katılım Bankası",
+    "bireysel_url": "",
+    "ticari_url": "",
+    "link_pattern": "",
+    "base_url": "https://www.adilkatilim.com.tr",
+    "title_selectors": ["h1"],
+    "kesin_silinecekler": []
+  }
+}
